@@ -6,3 +6,14 @@
     background: rgba(216, 189, 222, 5);
     color: #9533e8!important;
 }
+
+.badge:hover {
+    cursor: pointer;
+    color: blueviolet;
+    color: blue!important;
+}
+
+.plus:hover, .moins:hover {
+    cursor: pointer;
+    color: blueviolet;
+}

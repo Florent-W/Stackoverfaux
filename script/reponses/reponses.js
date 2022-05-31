@@ -30,8 +30,6 @@ const bouton_plus_r = document.getElementById('plus_r');
 const nombre_reponse = document.getElementById('n_r');
 const bouton_moins_r = document.getElementById('moins_r');
 
-console.log(nombre_reponse);
-
 const max_nombre_reponse_valeur = (parseInt(nombre_reponse.innerText) + 1)
 const min_nombre_reponse_valeur = (parseInt(nombre_reponse.innerText) - 1)
 
