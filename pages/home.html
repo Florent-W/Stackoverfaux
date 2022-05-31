@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>StackOverfaux</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../style/bootstrap/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../media/bootstrap-icons-1.8.3/bootstrap-icons.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../style/home/main.css'>
+    <script src='../script/bootstrap/bootstrap.bundle.min.js' defer></script>
+    <script src='../script/home/main.js' defer></script>
+</head>
+
+<body>
+    <div class="d-flex justify-content-between p-2">
+        <nav class="navbar navbar-expand-md bg-transparent flex-fill">
+            <form class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../media/logo.png" alt="logo stackoverfaux" width="30">
+                    <span>stack<b>overfaux</b></span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent">
+                    <i class="bi bi-search"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="d-flex" role="search">
+                        <div class="input-group mb-2">
+                            <input type="text" class="form-control" placeholder="Rechercher">
+                            <button class="btn btn-outline-secondary" type="button" id="search-button">
+                                <i class="bi bi-search fs-2"></i>
+                            </button>
+                            <button class="btn btn-outline-secondary" type="button" id="search-button">
+                                <i class="bi bi-filter fs-2"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </form>
+        </nav>
+        <ul class="navbar-nav pt-2 pb-2">
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown">
+                    <i class="bi bi-person-circle fs-2"></i>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Mon profil</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Se déconnecter</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="container-fluid">
+    </div>
+</body>
+
+</html>
