@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!--  This file has been downloaded from bootdey.com @bootdey on twitter -->
+    <!--  All snippets are MIT license http://bootdey.com/license -->
+    <title>gray profile - Bootdey.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<link href="../style/profiltest.css" rel="stylesheet">
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="container bootstrap snippets bootdey">
+    <div class="row">
+        <div class="main-content">
+            <!-- NAV TABS -->
+        	<ul class="nav nav-tabs nav-tabs-custom-colored tabs-iconized">
+        		<li class="active"><a href="#profile-tab" data-toggle="tab" aria-expanded="true"><i class="fa fa-user"></i> Profil</a></li>
+        		<li class=""><a href="#activity-tab" data-toggle="tab" aria-expanded="false"><i class="fa fa-rss"></i> Activité Récente</a></li>
+        		<li class=""><a href="#settings-tab" data-toggle="tab" aria-expanded="false"><i class="fa fa-gear"></i> Paramètres</a></li>
+        	</ul>
+        	<!-- END NAV TABS -->
+        	<div class="tab-content profile-page">
+        		<!-- PROFILE TAB CONTENT -->
+        		<div class="tab-pane profile active" id="profile-tab">
+        			<div class="row">
+        				<div class="col-md-3">
+        					<div class="user-info-left">
+        						<img class="img-responsive" src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="Profile Picture">
+        						<h2>Prénom Nom <i class="fa fa-circle green-font online-icon"></i><sup class="sr-only">online</sup></h2>
+        					</div>
+        				</div>
+        				<div class="col-md-9">
+        					<div class="user-info-right">
+        						<div class="basic-info">
+        							<h3><i class="fa fa-square"></i> Informations personnelles </h3>
+        							<p class="data-row">
+        								<span class="data-name">Username</span>
+        								<span class="data-value">Nom_utilisateur</span>
+        							<p class="data-row">
+        								<span class="data-name">Date d'inscription</span>
+        								<span class="data-value">22/02/2022</span>
+        							</p>
+        						</div>
+        						<div class="about">
+        							<h3><i class="fa fa-square"></i> About Me</h3>
+        							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a massa enim. Praesent lobortis interdum tellus, eget iaculis velit tristique vitae.</p>
+        							<p>Maecenas posuere enim at massa ultricies, ut iaculis metus condimentum. Donec eu mauris ullamcorper, sodales ex id, laoreet justo. Mauris mi est, finibus nec nisi ultrices, imperdiet mattis lacus.</p>
+        						</div>
+        					</div>
+        				</div>
+        			</div>
+        		</div>
+        		<!-- END PROFILE TAB CONTENT -->
+        
+        		<!-- ACTIVITY TAB CONTENT -->
+        		<div class="tab-pane activity" id="activity-tab">
+        			<ul class="list-unstyled activity-list">
+        				<li>
+        					<i class="fa fa-shopping-cart activity-icon pull-left"></i>
+        					<p>
+        						<a href="#">Jonathan</a> commented on <a href="#">Special Deal 2013</a> <span class="timestamp">12 minutes ago</span>
+        					</p>
+        				</li>
+        				<li>
+        					<i class="fa fa-pencil activity-icon pull-left"></i>
+        					<p>
+        						<a href="#">Jonathan</a> posted <a href="#">a new blog post</a> <span class="timestamp">4 hours ago</span>
+        					</p>
+        				</li>
+        				<li>
+        					<i class="fa fa-user activity-icon pull-left"></i>
+        					<p>
+        						<a href="#">Jonathan</a> edited his profile <span class="timestamp">11 hours ago</span>
+        					</p>
+        				</li>
+        				<li>
+        					<i class="fa fa-pencil activity-icon pull-left"></i>
+        					<p>
+        						<a href="#">Jonathan</a> has added review on <a href="#">jQuery Complete Guide</a> book <span class="timestamp">Yesterday</span>
+        					</p>
+        				</li>
+        				<li>
+        					<i class="fa fa-thumbs-up activity-icon pull-left"></i>
+        					<p>
+        						<a href="#">Jonathan</a> liked <a href="#">a post</a> <span class="timestamp">December 12</span>
+        					</p>
+        				</li>
+        				<li>
+        					<i class="fa fa-tasks activity-icon pull-left"></i>
+        					<p>
+        						<a href="#">Jonathan</a> has completed one task <span class="timestamp">December 11</span>
+        					</p>
+        				</li>
+        				<li>
+        					<i class="fa fa-picture-o activity-icon pull-left"></i>
+        					<p>
+        						<a href="#">Jonathan</a> uploaded <a href="#">new photos</a> <span class="timestamp">December 5</span>
+        					</p>
+        				</li>
+        				<li>
+        					<i class="fa fa-credit-card activity-icon pull-left"></i>
+        					<p>
+        						<a href="#">Jonathan</a> has updated his credit card info <span class="timestamp">September 28</span>
+        					</p>
+        				</li>
+        			</ul>
+        			<p class="text-center more"><a href="#" class="btn btn-custom-primary">View more <i class="fa fa-long-arrow-right"></i></a></p>
+        		</div>
+        		<!-- END ACTIVITY TAB CONTENT -->
+        
+        		<!-- SETTINGS TAB CONTENT -->
+        		<div class="tab-pane settings" id="settings-tab">
+        			<form class="form-horizontal" role="form">
+        				<h3><i class="fa fa-square"> </i>Notifications</h3>
+        				<fieldset>
+        					<div class="form-group">
+        						<label class="col-sm-5 control-label">Recevoir des messages d'administrateurs</label>
+        						<ul class="col-sm-7 list-inline">
+        							<li>
+        								<div class="has-switch switch-animate switch-small switch-on" tabindex="0"><div><span class="switch-left"><i class="glyphicon glyphicon-globe"></i></span><label>&nbsp;</label><span class="switch-right switch-default"><i class="glyphicon glyphicon-globe"></i></span><input type="checkbox" checked="" class="bs-switch switch-small" data-off="default" data-on-label="<i class='glyphicon glyphicon-globe'></i>" data-off-label="<i class='glyphicon glyphicon-globe'></i>"></div></div>
+        							</li>
+        							<li>
+        								<div class="has-switch switch-animate switch-small switch-on" tabindex="0"><div><span class="switch-left"><i class="glyphicon glyphicon-phone"></i></span><label>&nbsp;</label><span class="switch-right switch-default"><i class="glyphicon glyphicon-phone"></i></span><input type="checkbox" checked="" class="bs-switch switch-small" data-off="default" data-on-label="<i class='glyphicon glyphicon-phone'></i>" data-off-label="<i class='glyphicon glyphicon-phone'></i>"></div></div>
+        							</li>
+        							<li>
+        								<div class="has-switch switch-animate switch-small switch-on" tabindex="0"><div><span class="switch-left"><i class="glyphicon glyphicon-envelope"></i></span><label>&nbsp;</label><span class="switch-right switch-default"><i class="glyphicon glyphicon-envelope"></i></span><input type="checkbox" checked="" class="bs-switch switch-small" data-off="default" data-on-label="<i class='glyphicon glyphicon-envelope'></i>" data-off-label="<i class='glyphicon glyphicon-envelope'></i>"></div></div>
+        							</li>
+        						</ul>
+        					</div>
+        					<div class="form-group">
+        						<label class="col-sm-5 control-label">Votre post a été aimé</label>
+        						<ul class="col-sm-7 list-inline">
+        							<li>
+        								<div class="has-switch switch-animate switch-small switch-off" tabindex="0"><div><span class="switch-left"><i class="glyphicon glyphicon-globe"></i></span><label>&nbsp;</label><span class="switch-right switch-default"><i class="glyphicon glyphicon-globe"></i></span><input type="checkbox" class="bs-switch switch-small" data-off="default" data-on-label="<i class='glyphicon glyphicon-globe'></i>" data-off-label="<i class='glyphicon glyphicon-globe'></i>"></div></div>
+        							</li>
+        							<li>
+        								<div class="has-switch switch-animate switch-small switch-off" tabindex="0"><div><span class="switch-left"><i class="glyphicon glyphicon-phone"></i></span><label>&nbsp;</label><span class="switch-right switch-default"><i class="glyphicon glyphicon-phone"></i></span><input type="checkbox" class="bs-switch switch-small" data-off="default" data-on-label="<i class='glyphicon glyphicon-phone'></i>" data-off-label="<i class='glyphicon glyphicon-phone'></i>"></div></div>
+        							</li>
+        							<li>
+        								<div class="has-switch switch-animate switch-small switch-off" tabindex="0"><div><span class="switch-left"><i class="glyphicon glyphicon-envelope"></i></span><label>&nbsp;</label><span class="switch-right switch-default"><i class="glyphicon glyphicon-envelope"></i></span><input type="checkbox" class="bs-switch switch-small" data-off="default" data-on-label="<i class='glyphicon glyphicon-envelope'></i>" data-off-label="<i class='glyphicon glyphicon-envelope'></i>"></div></div>
+        							</li>
+        						</ul>
+        					</div>
+        				</fieldset>
+        			</form>
+        			<p class="text-center"><a href="#" class="btn btn-custom-primary"><i class="fa fa-floppy-o"></i> Sauvegarder</a></p>
+        		</div>
+        		<!-- END SETTINGS TAB CONTENT -->
+        	</div>
+        </div>    
+        
+
+    
+	</div>
+</div>
+
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
