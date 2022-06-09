@@ -13,6 +13,9 @@ bouton_moins_q.addEventListener('click', function(event) {
     else if(nombre_question_valeur == max_nombre_question_valeur) {
         nombre_question.innerText = (parseInt(nombre_question_valeur) - 2).toString();
     }
+    else if(nombre_question_valeur == min_nombre_question_valeur) {
+        nombre_question.innerText = (parseInt(nombre_question_valeur) + 1).toString();
+    }
 });
 
 bouton_plus_q.addEventListener('click', function(event) {
@@ -24,7 +27,10 @@ bouton_plus_q.addEventListener('click', function(event) {
     else if(nombre_question_valeur == min_nombre_question_valeur) {
         nombre_question.innerText = (parseInt(nombre_question_valeur) + 2).toString();
     }
-});
+    else if(nombre_question_valeur == max_nombre_question_valeur) {
+        nombre_question.innerText = (parseInt(nombre_question_valeur) - 1).toString();
+    }
+    });
 
 const bouton_plus_r = document.getElementById('plus_r');
 const nombre_reponse = document.getElementById('n_r');
@@ -41,6 +47,9 @@ bouton_moins_r.addEventListener('click', function(event) {
     else if(nombre_reponse_valeur == max_nombre_reponse_valeur) {
         nombre_reponse.innerText = (parseInt(nombre_reponse_valeur) - 2).toString();
     }
+    else if(nombre_reponse_valeur == min_nombre_reponse_valeur) {
+        nombre_reponse.innerText = (parseInt(nombre_reponse_valeur) + 1).toString();
+    }
 });
 
 bouton_plus_r.addEventListener('click', function(event) {
@@ -51,5 +60,8 @@ bouton_plus_r.addEventListener('click', function(event) {
     }
     else if(nombre_reponse_valeur == min_nombre_reponse_valeur) {
         nombre_reponse.innerText = (parseInt(nombre_reponse_valeur) + 2).toString();
+    }
+    else if(nombre_reponse_valeur == max_nombre_reponse_valeur) {
+        nombre_reponse.innerText = (parseInt(nombre_reponse_valeur) - 1).toString();
     }
 });
